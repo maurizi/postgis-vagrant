@@ -25,3 +25,4 @@ sudo ln -sf /usr/share/postgresql-common/pg_wrapper /usr/local/bin/raster2pgsql
 
 sudo -u postgres psql -c 'CREATE ROLE vagrant WITH superuser;'
 sudo -u postgres psql -c 'ALTER ROLE vagrant LOGIN;'
+sudo -u postgres psql -c 'CREATE DATABASE vagrant WITH OWNER vagrant;'
