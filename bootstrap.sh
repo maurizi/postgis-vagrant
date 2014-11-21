@@ -1,3 +1,7 @@
+#!/bin/sh
+
+set -e
+
 # Dependencies
 sudo apt-get update
 sudo apt-get install -y build-essential postgresql-9.3 postgresql-server-dev-9.3 libgeos-c1 libgdal-dev libproj-dev libjson-c-dev libxml2-dev libxml2-utils xsltproc docbook-xsl docbook-mathml
