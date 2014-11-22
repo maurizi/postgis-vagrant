@@ -11,6 +11,7 @@ svn co http://svn.osgeo.org/postgis/trunk postgis
 
 # Compile
 cd postgis
+sudo chown vagrant:vagrant -R .
 ./autogen.sh
 ./configure
 make
